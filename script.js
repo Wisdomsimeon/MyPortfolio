@@ -240,6 +240,35 @@ scene.add(target);
 
 
 
+
+
+
+
+window.addEventListener('load', function() {
+  const fadeInElement = document.querySelector('.fade-in');
+  fadeInElement.classList.add('visible');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function animate() {
 requestAnimationFrame(animate);
 	
