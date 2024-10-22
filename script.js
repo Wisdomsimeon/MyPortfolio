@@ -149,7 +149,7 @@ document.addEventListener('keydown',function(e){
 
 
 const sunLight = new THREE.DirectionalLight(0xffffff, 5);
-  sunLight.position.set(2, 4, 4);
+  sunLight.position.set(2, 4, 3);
   sunLight.castShadow = true;
   scene.add(sunLight);
 
