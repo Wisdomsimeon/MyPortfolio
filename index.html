@@ -5,6 +5,17 @@
 		<title>My first three.js app</title>
 		<style>
 			body { margin: 0;display: flex-box;overflow:hidden}
+			/* Initial state - hidden and transparent */
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+/* Visible state - fully opaque */
+.fade-in.visible {
+  opacity: 1;
+}
+
             canvas{
 
             filter: contrast(120%);
