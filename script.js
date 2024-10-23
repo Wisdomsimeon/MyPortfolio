@@ -233,14 +233,17 @@ const target = new THREE.Mesh(geo,mat);
 scene.add(target);
 
 
-
+const say = confirm("Do you want to enable sound?");
 
 
 const song = document.getElementById('music');
 window.addEventListener('mousemove',function(){
-	
-	
+	if(say == true){
 	song.play();
+	}
+	else{
+     song.pause();
+	}
 });
 
 window.addEventListener('load', function() {
