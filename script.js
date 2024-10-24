@@ -39,6 +39,9 @@ dl.position.set(0,5,0);
 scene.add(dl);
 
 
+const dl2  = new THREE.DirectionalLight("white",5);
+dl2.position.set(0,5,5);
+scene.add(dl2);
 
 
 
